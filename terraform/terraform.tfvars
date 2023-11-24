@@ -1,0 +1,10 @@
+region = "us-east-1"
+iam_user_name = "terraform_user_dev"
+bucket_name = "terraform-state-bucket-digitalden-dev"
+table_name = "terraform_state_locks_dev"
+root_domain = "denizyilmaz.cloud"
+dns_record_ttl = 300
+website_bucket = "denizyilmaz.cloud"
+force_destroy = true
+index_document = "index.html"
+versioning_enabled = "Enabled"
